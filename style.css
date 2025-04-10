@@ -12,12 +12,9 @@ body {
 
 h1 {
     font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+    font-weight: 300;
+    font-size: 29px;
     text-align: center;
-    width: 100%;
-    white-space: nowrap; 
-    overflow: hidden; 
 }
 
 h1 span {
