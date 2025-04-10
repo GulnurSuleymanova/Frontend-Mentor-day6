@@ -16,6 +16,8 @@ h1 {
     font-style: normal;
     text-align: center;
     width: 100%;
+    white-space: nowrap; 
+    overflow: hidden; 
 }
 
 h1 span {
@@ -24,7 +26,6 @@ h1 span {
     font-style: normal;
     font-size: 29px;
     text-align: center;
-
 }
 
 p {
@@ -38,7 +39,6 @@ p {
 .container {
     margin: 0 auto;
     max-width: 400px;
-
 }
 
 .cards {
@@ -88,9 +88,7 @@ footer {
 }
 
 @media (min-width: 1440px) {
-    
-
-   .allcard .card {
+    .allcard .card {
         min-width: 300px;
         height: 200px;
         margin: 20px;
@@ -99,13 +97,11 @@ footer {
     .allcard {
         display: flex;
         justify-content: center;
-     align-items: center;
-
+        align-items: center;
     }
 
     .card.blue {
         align-self: center;
-       
     }
 
     .card.green {
@@ -114,7 +110,5 @@ footer {
 
     .title {
         margin: auto;
-       
     }
-
 }
