@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300..700&family=Figtree:ital,wght@1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 15px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h1 span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 29px;
+}
+
+p {
+    padding-top: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #FAFAFA;
+}
+
+.cards {
+    background-color: #FAFAFA;
+    padding: 20px;
+}
+
+.card {
+    min-width: 100px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-top: 4px solid black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card.red {
+    border-top-color: hsl(0, 78%, 62%);
+}
+
+.card.green {
+    border-top-color: hsl(180, 62%, 55%);
+}
+
+.card.blue {
+    border-top-color: hsl(212, 86%, 64%);
+}
+
+.card.yellow {
+    border-top-color: hsl(34, 97%, 64%);
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card img {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .card {
+        min-width: 400px;
+        height: 200px;
+        margin: 20px;
+
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h1 span {
+        text-align: center;
+    }
+
+    .allcard {
+        display: flex;
+        justify-content: center;
+     
+
+    }
+
+    .card.blue {
+        align-self: center;
+       
+    }
+
+    .card.green {
+        align-self: center;
+    }
+
+    .title {
+        margin: auto;
+        width: 400px;
+    }
+
+}
